@@ -7,6 +7,12 @@
 	"name": "appdemo",
 	"main": "worker/index.ts",
 	"compatibility_date": "2026-10-01",
+	"routes": [
+		{
+			"pattern": "appunsch.quiosco-ya.store",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"not_found_handling": "single-page-application"
 	},
